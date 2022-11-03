@@ -1,3 +1,4 @@
+/* Example one
 .box {
     padding: 1em;
     border-radius: 1em;
@@ -10,4 +11,11 @@
 
 .box-large {
     font-size: 18px;
+} */
+
+body {
+    font-size: 16px;
 }
+
+.slogan {
+    font-size: 1.2em;
