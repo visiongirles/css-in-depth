@@ -32,20 +32,16 @@ ul ul {
         font-size: .8rem
     } */
 
-:root {
-    font-size: 1em;
-}
-body {
-    border-width: 1px;
-    border-color: black;
-    width: 500px;
-    border-style: solid;
+
+.panel {
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #999;
 }
 
-    h1 {
-        text-size: 1rem;
-    }
-
-    p {
-        text-size: 0.875rem;
-    }
+.panel > h2 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
