@@ -12,7 +12,7 @@
 .box-large {
     font-size: 18px;
 } */
-
+/* 
 body {
     font-size: 16px;
 }
@@ -22,4 +22,12 @@ ul {
 }
 
 ul ul {
-    font-size: 1em;
+    font-size: 1em; */
+
+    :root {
+        font-size: 1em;
+    }
+
+    ul {
+        font-size: .8rem
+    }
