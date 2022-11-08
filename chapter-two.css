@@ -24,10 +24,28 @@ ul {
 ul ul {
     font-size: 1em; */
 
-    :root {
+    /* :root {
         font-size: 1em;
     }
 
     ul {
         font-size: .8rem
+    } */
+
+:root {
+    font-size: 1em;
+}
+body {
+    border-width: 1px;
+    border-color: black;
+    width: 500px;
+    border-style: solid;
+}
+
+    h1 {
+        text-size: 1rem;
+    }
+
+    p {
+        text-size: 0.875rem;
     }
