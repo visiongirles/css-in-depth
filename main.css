@@ -1,0 +1,12 @@
+.social {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .storypic {
+    width: 200px;
+    border-radius: 50%;
+    float: inline-start;
+    /* float: left; */
+    /* float: unset; */
+  }
