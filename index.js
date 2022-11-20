@@ -8,3 +8,9 @@ function greet(name, lastName) {
 
 greet('Max', 'Sychenko');
 greet('Kate', 'Sychenko');
+
+function square(number) {
+    return number * number;
+}
+
+console.log(square(4));
