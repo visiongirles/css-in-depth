@@ -1,3 +1,8 @@
+:root {
+    background-color:darkslategray;
+    color: blanchedalmond;
+}
+
 .social {
     width: 50px;
     border-radius: 50%;
@@ -6,7 +11,48 @@
   .storypic {
     width: 200px;
     border-radius: 50%;
-    float: inline-start;
-    /* float: left; */
-    /* float: unset; */
+    float: left;
   }
+
+  em {
+    font-weight: bold;
+    color: white;
+  }
+
+
+  a:link {
+    color:aqua;
+  }
+
+  a:visited {
+    color:aquamarine;
+  }
+
+  a:hover {
+    color:rgb(223, 198, 231);
+
+  }
+
+  a:active {
+    color: aquamarine;
+  }
+
+
+
+  button {
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+
+    border-radius: 20%;
+    background-color: rgb(38, 26, 11);
+    padding: 10px;
+}
+
+button a {
+    text-decoration: none;
+}
+button:hover {
+    background-color:antiquewhite; 
+    color: rgb(0, 0, 0);
+}
