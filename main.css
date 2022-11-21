@@ -14,6 +14,12 @@
     float: left;
   }
 
+  .storypic img {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+  }
+
   em {
     font-weight: bold;
     color: white;
@@ -55,4 +61,29 @@ button a {
 button:hover {
     background-color:antiquewhite; 
     color: rgb(0, 0, 0);
+}
+
+.top-link {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: antiquewhite  ;
+    background-color:black;
+    border-width: 1px;
+}
+
+.top-nav li {
+    display: inline-block;
+    position: relative;
+  overflow: hidden;
+    /* display:grid 2; */
+}
+
+.nav a {
+    color:rgb(241, 189, 33);
+    background-color: rgb(221, 251, 253);
+    border-color: rgb(3, 43, 78);
+    border-width: 10px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-decoration: none;
 }
